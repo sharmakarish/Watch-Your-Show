@@ -71,7 +71,7 @@ movies = pd.DataFrame(movie_list)
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 # content---------------------------------------------------------------------
-st.markdown("<h1 style='text-align: center; color:rgb(152 217 70); font: Serif'> MOVIE RECOMMENDATION SYSTEM</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color:#FFFFFF; font: Serif'> MOVIE RECOMMENDATION SYSTEM</h1>", unsafe_allow_html=True)
 col1,col2,col3 = st.columns(3)
 with col2 :
     st.write('Hello and Welcome to Watch_Your_Show.com!!! ')
